@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import { View, StatusBar, Text, StyleSheet } from 'react-native';
 import { connect } from 'react-redux';
-
-import Login from './screens/Login/Login';
+import AppNavigation from './AppNavigation';
 class RootContainer extends Component {
   render() {
-    return <Login />;
+    return <AppNavigation />;
   }
 }
 
