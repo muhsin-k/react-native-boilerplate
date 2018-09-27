@@ -7,7 +7,10 @@
   },
   "parser": "babel-eslint",
   "extends": "airbnb",
+
   "rules": {
-    "import/no-unresolved": [2, { "ignore": [".png$", ".webp$", ".jpg$"] }]
+    "import/no-unresolved": [2, { "ignore": [".png$", ".webp$", ".jpg$"] }],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/prefer-stateless-function": 0
   }
 }

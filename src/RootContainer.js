@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { View, StatusBar, Text, StyleSheet } from 'react-native';
 import { connect } from 'react-redux';
 import AppNavigation from './AppNavigation';
+
 class RootContainer extends Component {
   render() {
     return <AppNavigation />;
