@@ -1,10 +1,10 @@
 import { createStackNavigator } from 'react-navigation';
 
-import Login from './screens/Login/Login'; 
+import LoginContainer from './containers/LoginContainer/LoginContainer';
 
 const App = createStackNavigator({
   Login: {
-    screen: Login,
+    screen: LoginContainer,
   },
 });
 
